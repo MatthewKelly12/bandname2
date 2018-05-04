@@ -2,7 +2,7 @@
 let k = 1;
 
 function bandName(band) {
-  let name = (k++)+ "." + " " + band  ;
+  let name = `${k++}. ${band}`;
   console.log(name);
 }
 bandName("Fistikuffs ");
